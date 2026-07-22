@@ -28,7 +28,7 @@ if "tappe" not in st.session_state:
     poi_principali = st.sidebar.text_area("🏛️ Punti di Interesse / Attrazioni (separati da virgola)",
                                            placeholder="Es. Centro storico, Parco naturale, Spiaggia")
 
-                                           if st.sidebar.button("Inserisci Tappa nell'Itinerario"):
+     if st.sidebar.button("Inserisci Tappa nell'Itinerario"):
                                                if citta:
                                                        st.session_state.tappe.append({
                                                                    "citta": citta,
