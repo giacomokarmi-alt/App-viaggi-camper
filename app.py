@@ -1,5 +1,3 @@
-import streamlit as st
-import folium
 from streamlit_folium import st_folium
 richieste di importazione
 da geopy.geocoders import Nominatim
@@ -98,4 +96,4 @@ with col2:
     if len(points) > 1:
         folium.PolyLine (points, color="blue", weight=3, opacity= 0.8 ).add_to(m)
        
-    st_folium(m, width= 600 , height= 450 )                                                                                                                                                             
+    st_folium(m, width= 600 , height= 450                                                                                                                                                
