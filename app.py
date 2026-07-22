@@ -1,4 +1,4 @@
-!pip install streamlit folium streamlit-folium geopy requests pyngrok -q
+pip install streamlit folium streamlit-folium geopy requests pyngrok -q
 import streamlit as st
 from streamlit_folium import st_folium
 from geopy.geocoders import Nominatim
